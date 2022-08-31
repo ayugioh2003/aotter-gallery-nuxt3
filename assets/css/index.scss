@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-test {
+  color: red;
+  background-color: pink;
+
+  .inner {
+    color: green;
+  }
+} 
